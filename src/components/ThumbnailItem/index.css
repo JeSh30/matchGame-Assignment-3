@@ -1,0 +1,25 @@
+.thumbnail-container {
+  width: 20%;
+  height: 50%;
+  padding: 5px;
+}
+
+@media (max-width: 766px) {
+  .thumbnail-container {
+    width: 25%;
+    height: 51%;
+    padding: 5px;
+  }
+}
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+}
+.thumbnail-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,0 +1,39 @@
+.game-container {
+  width: 100%;
+  height: 100%;
+  max-width: 768px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.match-image {
+  width: 100%;
+}
+
+.tab-items-container {
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnails-container {
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+@media (max-width: 766px) {
+  .thumbnails-container {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+  }
+}
